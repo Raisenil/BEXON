@@ -177,12 +177,14 @@ section {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 5em;
+    margin-bottom: 12em;
 }
 
 .mediaplayer iframe{
-    width: 100em;
-    height: 55em;
+    /* width: 100em;
+    height: 55em; */
+    width:718px;
+    height:440px;
 }
 
 
