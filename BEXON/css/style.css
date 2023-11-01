@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/satoshi');
+
 *{
     margin: 0;
     padding: 0; 
@@ -66,7 +67,10 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
+
 /* Home section Start */
+
 .home{
     display: flex;
     align-items: center;
@@ -195,8 +199,12 @@ section {
         height:340px;
     }
 }
+
 /* Home section End */
 
+
+
+/* About Us section Start */
 
 .about{
     /* display: flex; */
@@ -292,4 +300,125 @@ section {
     margin-right: 10px;
     margin-top: 30px;
 }
+
+/* About Us section End */
+
+
+
+/* Portfolio Section Start */
+.portfolio{
+    min-height: auto;
+    padding-bottom:5rem;
+}
+
+.portfolio-content {
+    position: relative;
+    /* padding: 1.5rem; */
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.portfolio-content .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio-content p {
+    color: #A89F94;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.portfolio-content h2 {
+    color: #110804;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}
+
+.portfolio-content a {
+    color: #FE7E41;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.portfolio .portfolio-row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-row-1 .website_design img {
+    margin-top: 50px;
+    /* width: 1170px; */
+    width: 1170px;
+    height: 600px;
+}
+
+.portfolio-row-1 .website_design h3{
+    margin-top: 30px;
+    color:#110804;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.portfolio-row-1 .website_design p{
+    color: #4B423E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 650px;
+    margin-top: 10px;
+}
+
+.portfolio .portfolio-row{
+    margin-top: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.portfolio-row .portfolio-column{
+    flex: 1 1 40rem;
+}
+
+.portfolio-row h3{
+    margin-top: 30px;
+    color:#110804;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.portfolio-row p{
+    color: #4B423E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 350px;
+    margin-top: 10px;
+}
+
+/* Portfolio Section End */
+
 
