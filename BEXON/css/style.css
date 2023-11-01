@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/satoshi');
 *{
     margin: 0;
     padding: 0; 
@@ -8,7 +7,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Satoshi', sans-serif;                                           
 }
 
 html{
@@ -32,6 +31,11 @@ body{
     align-items: center;
     z-index: 100;
     transition: .3s;
+}
+
+.header-sticky{
+    background: #FAF5EF;
+    /* background: black; */
 }
 
 .header.sticky{
@@ -62,7 +66,7 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
-
+/* Home section Start */
 .home{
     display: flex;
     align-items: center;
@@ -181,10 +185,105 @@ section {
 }
 
 .mediaplayer iframe{
-    /* width: 100em;
-    height: 55em; */
     width:718px;
     height:440px;
 }
 
+@media (max-width: 1400px){
+    .mediaplayer iframe{
+        width:618px;
+        height:340px;
+    }
+}
+/* Home section End */
+
+
+.about{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    min-height: auto;
+    padding-bottom:5rem;
+}
+
+.about .about-row{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.about-box hr{
+    margin-top: 30px;
+    /* width: 546px; */
+    height: 1px;
+    flex-shrink: 0;
+    background: #D8D0C7;
+}
+
+.about-row .about-column{
+    flex: 1 1 40rem;
+}
+
+.about-content .content {
+    position: relative;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.about-content .content h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.about-content .content p {
+    padding-top: 20px;
+    max-width: 346px;
+    color: #4B423E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about-content .content a {
+    display: inline-block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #110804;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.about-content .content-r p{
+    margin-top: 30px;
+    color: #A89F94;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-content .content-r h3{
+    color:  #110804;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}
+
+.about-content .content-r img{
+    margin-top: 50px;
+}
 
