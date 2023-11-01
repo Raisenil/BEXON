@@ -24,7 +24,6 @@ body{
 body {
     max-width: 1440px;
     margin: 0 auto;
-    
 }
 
 
@@ -189,11 +188,20 @@ section {
     justify-content: space-between;
 }
 
-.mediaplayer{
+.home-content .mediaplayer{
     position: absolute;
     bottom: 0;
     right: 0;
     margin-bottom: 6em;
+    /* display: inline-block;
+    position: absolute;
+    bottom: 2em;
+    right: 0em;
+    color: #C5B7A7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; */
 }
 
 .mediaplayer iframe{
