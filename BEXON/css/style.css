@@ -17,11 +17,8 @@ html{
     overflow-x: hidden;
 }
 
-body{
-    background: #FAF5EF;
-}
-
 body {
+    background: #FAF5EF;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -403,9 +400,9 @@ section {
     margin-top: 10px;
 }
 
-.portfolio .portfolio-row{
+.portfolio .portfolio-row {
     margin-top: 50px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 5em;
 }
@@ -526,3 +523,108 @@ section {
     line-height: 26px;
 }
 /* process Section End */
+
+/* reviews Section Start */
+.reviews{
+    min-height: auto;
+    padding-bottom:5rem;
+    display: flex;
+    /* align-items: center; */
+    /* padding: 0 9%; */
+    position: relative;
+    justify-content: space-between;
+}
+
+.reviews-content{
+    max-width: 90rem;
+    /* margin-bottom: 10rem; */
+}
+
+.reviews-content h3 {
+    color: #110804;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    width: 385px;
+    margin-bottom: 50px;
+}
+
+.reviews-content p {
+    color: var(--text-color-paragraph-thin, #A89F94);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 123px;
+}
+
+.reviews-content hr{
+    width: 518px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #DFD8CE;
+}
+
+
+.cus-review,
+.cl-review{
+    /* border: 1px solid red; */
+}
+
+.cus-review{
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 0 30px 0;
+}
+
+.cl-review{
+    padding-left: 10px;
+}
+
+.cus-review img{
+    position:relative;
+    
+}
+
+.cus-review .cl-review h4{
+    color: #110804;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.cus-review .cl-review img{
+    padding-bottom: 10px;
+}
+
+.cus-review .cl-review p{
+    width: 334px;
+    color: #4B423E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.reviews-content .arrows{
+    margin-top: 50px;
+}
+
+.reviews .map{
+    align-self: center; 
+}
+/* reviews Section End */
+
+.contact_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 6rem;
+}
