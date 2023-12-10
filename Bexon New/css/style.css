@@ -370,3 +370,13 @@ body{
 }
 
 /* portfolio section end */
+
+/* process Section Start */
+.process {
+    background: #110804;
+    /* display: flex;
+    flex-direction: column; */
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+/* process Section end */
