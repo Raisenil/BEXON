@@ -21,7 +21,7 @@ body{
 }
 
 .wrapper{
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ body{
 
 .navbar{
     background-color: #FAF5EF!important;
-    max-width: 1440px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0;
 }
@@ -62,6 +62,7 @@ body{
 /* home section start */
 .home{
     height: 100vh;
+    display: flex;
     align-items: center;
     padding: 10% 0;
 }
@@ -184,3 +185,96 @@ body{
 }
 
 /* home section end */
+
+/* about section start */
+.about{
+    min-height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-box hr{
+    margin-top: 30px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #D8D0C7;
+}
+
+.about-content .content {
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.about-content .content h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.about-content .content p {
+    padding-top: 20px;
+    max-width: 346px;
+    color: #4B423E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about-content .content a {
+    display: inline-block;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #110804;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.about-content .content-r{
+    padding-left: 50px;
+}
+
+.about-content .content-r p{
+    margin-top: 30px;
+    color: #A89F94;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-content .content-r h3{
+    color:  #110804;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}
+
+.about-content .content-r .img_box{
+    margin-top: 50px;
+}
+
+.about-content .content-r .img_1st{
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 248px;
+    height: 406px;
+}
+
+.about-content .content-r .img_2nd{
+    width: 248px;
+    height: 406px;
+}
+/* about section end */
