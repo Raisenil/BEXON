@@ -64,7 +64,8 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 10% 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .home .min{
@@ -236,6 +237,7 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 26px;
+    text-decoration: none;
 }
 
 .about-content .content-r{
@@ -244,6 +246,7 @@ body{
 
 .about-content .content-r p{
     margin-top: 30px;
+    margin-bottom: 0;
     color: #A89F94;
     font-size: 14px;
     font-style: normal;
@@ -278,3 +281,92 @@ body{
     height: 406px;
 }
 /* about section end */
+
+/* portfolio section start */
+
+.portfolio{
+    min-height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.portfolio .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio p{
+    color: #A89F94;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.portfolio h2 {
+    color: #110804;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.portfolio a {
+    color: #FE7E41;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.website_design img {
+    margin-top: 20px;
+    width: 1170px;
+    height: 600px;
+}
+
+.website_design h3,
+.website_development h3,
+.branding_logo h3{
+    margin-top: 30px;
+    color:#110804;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.website_design p{
+    color: #4B423E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 650px;
+    margin-top: 10px;
+}
+
+
+.website_development p,
+.branding_logo p{
+    color: #4B423E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    max-width: 350px;
+    margin-top: 10px;
+}
+
+/* portfolio section end */
