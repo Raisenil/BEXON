@@ -1,0 +1,6 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow">
+<rect id="Rectangle 16" y="90" width="90" height="90" rx="45" transform="rotate(-90 0 90)" fill="#FE7E41"/>
+<path id="Union" d="M44.8686 62C44.8686 57.4912 46.6735 53.1673 49.8862 49.9792C53.099 46.791 57.4565 45 62 45M62 45C59.7503 45 57.5226 44.5602 55.4441 43.7061C53.3656 42.8516 51.477 41.5993 49.8862 40.0208C48.2954 38.4421 47.0336 36.568 46.1726 34.5055C45.3117 32.443 44.8686 30.2324 44.8686 28M62 45H28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
