@@ -18,7 +18,7 @@
 <body>
     <!-- Nav bar start-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bor">
             <a class="navbar-brand logo" href="#home">BEXON.</a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
 
     <!-- home section start -->
     <section class="home bor" id="home">
-        <div class="wrapper">
+        <div class="container">
             <div class="row">
                 <div class="col-8">
                     <h2 class="min">😎 GIVING YOU THE BEST DESIGNS</h2>
@@ -101,7 +101,7 @@
 
     <!-- about section start -->
     <section class="about bor" id="about">
-        <div class="wrapper">
+        <div class="container">
             <div class="row">
                 <div class="col-6">
                     <div class="about-box">
@@ -150,8 +150,8 @@
                                 <p>OUR SERVICES</p>
                                 <h3>come on, we will help you buIld your dream project.</h3>
                                 <div class="img_box">
-                                    <img src="Assets/icons/Rectangle 19.png" alt=""class="img_1st">
-                                    <img src="Assets/icons/Rectangle 18.png" alt=""class="img_2nd">
+                                    <img src="Assets/icons/Rectangle 19.png" alt=""class="img_1st img-fluid">
+                                    <img src="Assets/icons/Rectangle 18.png" alt=""class="img_2nd img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
     
     <!-- portfolio section start -->
     <section class="portfolio bor" id="portfolio">
-        <div class="wrapper">
+        <div class="container">
 
             <div class="row">
                 <div class="col">
@@ -177,9 +177,9 @@
             </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col-12">
                     <div class="website_design">
-                        <img src="Assets/icons/Rectangle 21.png" alt="">
+                        <img src="Assets/icons/Rectangle 21.png" alt="" class="img-fluid">
                         <h3>website design</h3>
                         <p>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
                     </div>
@@ -191,7 +191,7 @@
             <div class="row">
                 <div class="col-6">
                     <div class="website_development">
-                        <img src="Assets/icons/Rectangle 22.png" alt="">
+                        <img src="Assets/icons/Rectangle 22.png" alt="" class="img-fluid">
                         <h3>website development</h3>
                         <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
                     </div>
@@ -199,7 +199,7 @@
 
                 <div class="col-6">
                     <div class="branding_logo">
-                        <img src="Assets/icons/Rectangle 23.png" alt="">
+                        <img src="Assets/icons/Rectangle 23.png" alt="" class="img-fluid">
                         <h3>branding logo</h3>
                         <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
                     </div>
@@ -209,33 +209,72 @@
     </section>
     <!-- portfolio section end -->
 
-    <section class="process" id="process">
-        <div class="wrapper">
-            <div class="row">
-                <div class="col-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta facere quasi, consequuntur in maiores magnam consectetur error. Consequatur fuga tenetur amet ratione laboriosam molestiae architecto, tempore voluptates, quidem veritatis perspiciatis.
+    <section class="process bor" id="process">
+        <div class="container">
+            <div class="process-row">
+                <div class="process-column">
+                    <div class="content">
+                        <h3>1. Discussion of the project</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText1','toggleButton1', event);"><img id="toggleButton1" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText1">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
+
+                    <div class="content">
+                        <h3>2. Conclusion of a contract</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText2','toggleButton2', event);"><img id="toggleButton2" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText2">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
+
+                    <div class="content">
+                        <h3>3. Text structure and logic</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText3','toggleButton3', event);"><img id="toggleButton3" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText3">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
                 </div>
 
-                <div class="col-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta facere quasi, consequuntur in maiores magnam consectetur error. Consequatur fuga tenetur amet ratione laboriosam molestiae architecto, tempore voluptates, quidem veritatis perspiciatis.
+                <div class="process-column">
+                    <div class="content">
+                        <h3>4. Design concept of the main page</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText4','toggleButton4', event);"><img id="toggleButton4" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText4">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
+
+                    <div class="content">
+                        <h3>5. Design of internal pages</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText5','toggleButton5', event);"><img id="toggleButton5" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText5">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
+
+                    <div class="content">
+                        <h3>6. Layout on Figma</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText6','toggleButton6', event);"><img id="toggleButton6" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText6">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
                 </div>
 
-                <div class="col-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta facere quasi, consequuntur in maiores magnam consectetur error. Consequatur fuga tenetur amet ratione laboriosam molestiae architecto, tempore voluptates, quidem veritatis perspiciatis.
+                <div class="process-column">
+                    <div class="content-p">
+                        <p>
+                            OUR PROCESS
+                        </p>
+                        <h3>
+                            our process of working
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="reviews" id="reviews">
-        <div class="wrapper">
+        <div class="container">
             
         </div>
     </section>
 
     <section class="contact_us" id="contact_us">
-        <div class="wrapper">
-            
+        <div class="container">
+
         </div>
     </section>
     
@@ -246,7 +285,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- import javascript -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="javascript/script.js"></script>
 </body>
 </html>

@@ -16,13 +16,16 @@
 
 body{
     background: #FAF5EF!important;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Satoshi', sans-serif;
 }
 
-.wrapper{
+.col,.col-12,.col-6,.col-8{
+    padding: 0;
+}
+
+.container{
     max-width: 1170px;
-    margin: 0 auto;
 }
 
 /* navbar css start */
@@ -61,10 +64,11 @@ body{
 
 /* home section start */
 .home{
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
     display: flex;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 
@@ -86,7 +90,7 @@ body{
 }
 
 .home-sup{
-    padding-top: 30px;
+    padding-top: 10px;
     display: flex; 
     gap: 50px;     
     align-items: center;
@@ -330,8 +334,6 @@ body{
 
 .website_design img {
     margin-top: 20px;
-    width: 1170px;
-    height: 600px;
 }
 
 .website_design h3,
@@ -374,9 +376,104 @@ body{
 /* process Section Start */
 .process {
     background: #110804;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     min-height: auto;
     padding-bottom: 5rem;
+    padding-top: 5rem;
 }
+
+.process .process-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+/* .process-row .process-column {
+    flex: 1 1 calc(33.33% - 2rem); 
+    margin-bottom: 2rem;
+} */
+
+.process .content {
+    position: relative;
+    padding: 1.5rem;
+    overflow: hidden;
+    width: 360px;
+    margin-top: 20px;
+}
+
+.process .content h3 {
+    color: #DDD3CE;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    /* text-transform: uppercase; */
+    max-width: 238px;
+}
+
+.process .content p {
+    max-width: 278px;
+    color: #C5B7A7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.process .content a {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: #C5B7A7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.process .content-p{
+    margin-left: 2rem;
+}
+
+.process .content-p h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    max-width: 276px;
+}
+
+.process .content-p p {
+    padding-top: 20px;
+    max-width: 123px;
+    color: #C5B7A7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* toggle icon */
+.content {
+    transition: background-color 0.5s ease-out;
+}
+
+.text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.text.active {
+    max-height: 200px; 
+}
+
 /* process Section end */
+
