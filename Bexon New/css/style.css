@@ -383,6 +383,10 @@ body{
     padding-top: 5rem;
 }
 
+.process .container{
+    padding: 0;
+}
+
 .process .process-row {
     display: flex;
     flex-wrap: wrap;
