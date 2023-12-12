@@ -4,107 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
-                
+
+    <!-- BootStrap Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- import css -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>BEXON</title>
 </head>
 <body>
-    <!-- header design -->
+    <!-- Nav bar start-->
     <header class="header">
-        <a href="#" class="logo">BEXON</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bor">
+            <a class="navbar-brand logo" href="#home">BEXON.</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- navigation bar -->
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About us</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#reviews">Reviews</a>
-            <a href="#contact_us">Contact us</a>
-        </nav>    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact_us">Contact us</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
     </header>
+    <!-- Nav bar end-->
 
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h2 class="min">😎 GIVING YOU THE BEST DESIGNS</h2>
-            <h1 class="title">saving world with good designs.</h1>
-            <div class="home-sup">
-                <p><img src="Assets/icons/check.svg" alt="">24/7 Online support</p>
-                <p><img src="Assets/icons/check.svg" alt="">Quick communication</p>
+    <!-- home section start -->
+    <section class="home bor" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="min">😎 GIVING YOU THE BEST DESIGNS</h2>
+                    <h1 class="title">saving world with good designs.</h1>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-6">
 
-            <p class="min subtitle">Saving World with Good Designs. Because your satisfaction is everything. We are providing the best designs.</p>
-
-            <div class="button-container">
-                <button class="primary-button">
-                    <span class="primary-button__text">START A PROJECT</span><img src="Assets/icons/Union.svg" alt="" class="union">
-                </button>
-            </div>
-
-            <div class="mediaplayer">
-                <iframe src="https://www.youtube.com/embed/lu72YfaDU1o?si=hxVPFeNiJ6bWELU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
-        
-        <div class="home-sci">
-            <a href="#about"><img src="Assets/icons/Icon.svg" alt=""> </a> 
-        </div>
-    </section>
-
-    <!-- About section design -->
-    <section class="about" id="about">
-        <div class="about-row">
-            <div class="about-column">
-                <div class="about-box">
-                    <div class="about-content">
-                        <div class="content">
-                            <h3>UI/UX DESIGN</h3>
-                            <p>Saving World with Good Designs. Because your satisfaction is everything.</p><a href="#">Learn More</a>
-                        </div>
+                    <div class="home-sup">
+                        <p><img class="img-fluid" src="Assets/icons/check.svg" alt="">24/7 Online support</p>
+                        <p><img class="img-fluid" src="Assets/icons/check.svg" alt="">Quick communication</p>
                     </div>
-                    <hr>
 
-                    <div class="about-content">
-                        <div class="content">
-                            <h3>DEVELOPMENT</h3>
-                            <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <hr>
+                    <p class="subtitle">Saving World with Good Designs. Because your satisfaction is everything. We are providing the best designs.</p>
 
-                    <div class="about-content">
-                        <div class="content">
-                            <h3>DIGITAL MARKETING</h3>
-                            <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
-                            <a href="#">Learn More</a>
-                        </div>
+                    <div class="button-container">
+                        <a href="#contact_us" class="primary-button">
+                            <span class="primary-button__text">START A PROJECT</span>
+                            <img src="Assets/icons/Union.svg" alt="" class="union">
+                        </a>
                     </div>
-                    <hr>
 
-                    <div class="about-content">
-                        <div class="content">
-                            <h3>product branding</h3>
-                            <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
-                            <a href="#">Learn More</a>
-                        </div>
+                    <div class="home-sci">
+                        <a href="#about">
+                            <img class="img-fluid"src="Assets/icons/Icon.svg" alt="">
+                        </a> 
                     </div>
-                    <hr>
+                </div>
+
+                <div class="col-6 video-card">
+
+                    <div class="media-player">
+                        <iframe src="https://www.youtube.com/embed/lu72YfaDU1o?si=hxVPFeNiJ6bWELU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                     
                 </div>
             </div>
-            <div class="about-column">
-                <div class="about-box">
-                    <div class="about-content">
-                        <div class="content-r">
-                            <p>OUR SERVICES</p>
-                            <h3>come on, we will help you buIld your dream project.</h3>
-                            <div class="img_box">
-                                <img src="Assets/icons/Rectangle 19.png" alt=""class="img_1st">
-                                <img src="Assets/icons/Rectangle 18.png" alt=""class="img_2nd">
+        </div>
+    </section>
+    <!-- home section End -->
+
+    <!-- about section start -->
+    <section class="about bor" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="about-box">
+                        <div class="about-content">
+                            <div class="content">
+                                <h3>UI/UX DESIGN</h3>
+                                <p>Saving World with Good Designs. Because your satisfaction is everything.</p><a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="about-content">
+                            <div class="content">
+                                <h3>DEVELOPMENT</h3>
+                                <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="about-content">
+                            <div class="content">
+                                <h3>DIGITAL MARKETING</h3>
+                                <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <hr>
+    
+                        <div class="about-content">
+                            <div class="content">
+                                <h3>product branding</h3>
+                                <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <hr>
+                        
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="about-box">
+                        <div class="about-content">
+                            <div class="content-r">
+                                <p>OUR SERVICES</p>
+                                <h3>come on, we will help you buIld your dream project.</h3>
+                                <div class="img_box">
+                                    <img src="Assets/icons/Rectangle 19.png" alt=""class="img_1st img-fluid">
+                                    <img src="Assets/icons/Rectangle 18.png" alt=""class="img_2nd img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,90 +160,97 @@
             </div>
         </div>
     </section>
+    <!-- about section end -->
+    
+    <!-- portfolio section start -->
+    <section class="portfolio bor" id="portfolio">
+        <div class="container">
 
-    <!-- Portfolio section design -->
-
-    <section class="portfolio" id="portfolio">
-        <div class="portfolio-content">
-            <p>OUR PORTFOLIO</p>
-            <div class="header-row">
-                <h2>our recent works</h2>
-                <a href="#">View All</a>
-            </div>
-            
-            <div class="portfolio-row-1">
-                <div class="website_design">
-                    <img src="Assets/icons/Rectangle 21.png" alt="">
-                    <h3>website design</h3>
-                    <p>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+            <div class="row">
+                <div class="col">
+                    <p>OUR PORTFOLIO</p>
+                    <div class="header-row">
+                        <h2>our recent works</h2>
+                        <a href="#">View All</a>
+                    </div>
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-12">
+                    <div class="website_design">
+                        <img src="Assets/icons/Rectangle 21.png" alt="" class="img-fluid">
+                        <h3>website design</h3>
+                        <p>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
+                </div>
+            </div>
 
-            <div class="portfolio-row">
-                <div class="portfolio-column">
+            <br><br>
+
+            <div class="row">
+                <div class="col-6">
                     <div class="website_development">
-                        <img src="Assets/icons/Rectangle 22.png" alt="">
+                        <img src="Assets/icons/Rectangle 22.png" alt="" class="img-fluid">
                         <h3>website development</h3>
                         <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
                     </div>
                 </div>
-                <div class="portfolio-column">
+
+                <div class="col-6">
                     <div class="branding_logo">
-                        <img src="Assets/icons/Rectangle 23.png" alt="">
+                        <img src="Assets/icons/Rectangle 23.png" alt="" class="img-fluid">
                         <h3>branding logo</h3>
                         <p>Saving World with Good Designs. Because your satisfaction is everything.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+    <!-- portfolio section end -->
 
-    <!-- Reviews section design -->
-    <section class="process" id="process">
-        <div class="process-content">
+    <section class="process bor" id="process">
+        <div class="container">
             <div class="process-row">
                 <div class="process-column">
                     <div class="content">
                         <h3>1. Discussion of the project</h3>
-                        <a class="toggle" href="#"><img src="Assets/icons/reviews-Info.svg" alt=""></a>
-                        <p class="text" hidden>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                        <a class="toggle" href="#" onclick="toggleText('projectText1','toggleButton1', event);"><img id="toggleButton1" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText1">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                    </div>
+
+                    <div class="content">
+                        <h3>2. Conclusion of a contract</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText2','toggleButton2', event);"><img id="toggleButton2" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText2">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
                     </div>
 
                     <div class="content">
                         <h3>3. Text structure and logic</h3>
-                        <a class="toggle" href="#"><img src="Assets/icons/reviews-Info.svg" alt=""></a>
-                        <p class="text" hidden>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
-                    </div>
-
-                    <div class="content">
-                        <h3>5. Design of internal pages</h3>
-                        <a class="toggle" href="#"><img src="Assets/icons/reviews-Info.svg" alt=""></a>
-                        <p class="text" hidden>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                        <a class="toggle" href="#" onclick="toggleText('projectText3','toggleButton3', event);"><img id="toggleButton3" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText3">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
                     </div>
                 </div>
 
                 <div class="process-column">
                     <div class="content">
-                        <h3>2. Conclusion of a contract</h3>
-                        <a class="toggle" href="#"><img src="Assets/icons/reviews-Info.svg" alt=""></a>
-                        <p class="text" hidden>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                        <h3>4. Design concept of the main page</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText4','toggleButton4', event);"><img id="toggleButton4" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText4">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
                     </div>
 
                     <div class="content">
-                        <h3>4. Design concept of the main page</h3>
-                        <a class="toggle" href="#"><img src="Assets/icons/reviews-Info.svg" alt=""></a>
-                        <p class="text" hidden>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                        <h3>5. Design of internal pages</h3>
+                        <a class="toggle" href="#" onclick="toggleText('projectText5','toggleButton5', event);"><img id="toggleButton5" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText5">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
                     </div>
 
                     <div class="content">
                         <h3>6. Layout on Figma</h3>
-                        <a class="toggle" href="#"><img src="Assets/icons/reviews-Info.svg" alt=""></a>
-                        <p class="text" hidden>Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
+                        <a class="toggle" href="#" onclick="toggleText('projectText6','toggleButton6', event);"><img id="toggleButton6" src="Assets/icons/reviews-Info.svg" alt=""></a>
+                        <p class="text" id="projectText6">Saving World with Good Designs. Because your satisfaction is everything. Check out our latest design of website and see how it is.</p>
                     </div>
                 </div>
-
 
                 <div class="process-column">
                     <div class="content-p">
@@ -210,97 +265,151 @@
             </div>
         </div>
     </section>
-    
 
-    <section class="reviews" id="reviews">
-        <div class="reviews-content">
-            <p>TESTIMONIAL</p>
-            <h3>what clients say about us</h3>
+    <section class="reviews bor" id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p>TESTIMONIAL</p>
+                    <h3>what clients say about us</h3>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-6 cus">
+                    <div class="cus-review">
+                        <div class="cl-review">
+                            <div class="row">
+                                <div class="col-2 ">
+                                    <img class="img-fluid" src="Assets/icons/Ellipse 1177.svg" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <h4>Salamah</h4>
+                                    <img class="img-fluid" src="Assets/icons/Rating.svg" alt="">
+                                    <p>
+                                        Fantastic design agecny I have work ever. They provides really good services.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="cus-review">
-                <img src="Assets/icons/Ellipse 1177.svg" alt="">
+                    <hr>
 
-                <div class="cl-review">
-                    <h4>Salamah</h4>
-                    <img src="Assets/icons/Rating.svg" alt="">
-                    <p>Fantastic design agecny I have work ever. They provides really good services.</p>
+                    <div class="cus-review">
+                        <div class="cl-review">
+                            <div class="row">
+                                <div class="col-2 ">
+                                    <img class="img-fluid" src="Assets/icons/Ellipse 1175.svg" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <h4>Shane Mire</h4>
+                                    <img class="img-fluid" src="Assets/icons/Rating.svg" alt="">
+                                    <p>
+                                        Fantastic design agecny I have work ever. They provides really good services.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- map -->
+                <div class="col-6 map">
+                    <img class="img-fluid" src="Assets/icons/map.svg" alt="">
                 </div>
             </div>
 
-            <hr>
-
-            <div class="cus-review">
-                <img src="Assets/icons/Ellipse 1175.svg" alt="">
-
-                <div class="cl-review">
-                    <h4>Shane Mire</h4>
-                    <img src="Assets/icons/Rating.svg" alt="">
-                    <p>Fantastic design agecny I have work ever. They provides really good services.</p>
-                </div>
+            <div class="row arrows">
+                <img class="img-fluid" src="Assets/icons/Arrows.svg" alt="">
             </div>
-
-            <img class="arrows" src="Assets/icons/Arrows.svg" alt="">
         </div>
-
-        <img class="map" src="Assets/icons/map.svg" alt="">
     </section>
 
     <section class="contact_us" id="contact_us">
-        <p>CONTACT US</p>
-        <h3>let’s work on 
-            something cool together
-        </h3>
-        <a href="#"><img src="Assets/icons/Arrow.svg" alt=""></a>
-    </section>
-
-    <footer class="footer" id="footer">
         <div class="container">
-            <div class="footer-content">
-                <h3>Menu</h3>
-                <hr>
-                <a href="#home">Home</a>
-                <a href="#about">About us</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact_us">Contact us</a>
+            <div class="row ">
+                <div class="col-12">
+                    <p>CONTACT US</p>
+                    <div class="con">
+                        <h3 class="">let’s work on 
+                            something cool together
+                        </h3>
+                    </div>
+                    <a href="#"><img class="img-fluid" src="Assets/icons/Arrow.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bor" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <h3>Menu</h3>
+                    <hr>
+                    <a href="#home">Home</a>
+                    <a href="#about">About us</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact_us">Contact us</a>
+                </div>
+
+                <div class="col-2">
+
+                </div>
+
+                <div class="col-5">
+                    <h3>FOLLOW US HERE</h3>
+                    <hr>
+                    <ul class="social">
+                        <li>
+                            <div class="social_box">
+                                <a href=""><span>Instagram</span><img src="Assets/icons/footer_Union.svg" alt=""></a>
+                            </div>
+                            <hr>
+                        </li>
+                        
+                        <li>
+                            <div class="social_box">
+                                <a href=""><span>Twitter</span><img src="Assets/icons/footer_Union.svg" alt=""></a>
+                            </div>
+                            <hr>
+                        </li>
+                        
+                        <li>
+                            <div class="social_box">
+                                <a href=""><span>Email </span><img src="Assets/icons/footer_Union.svg" alt=""></a>
+                            </div>
+                            <hr>
+                        </li>
+                        
+                    </ul>
+                </div>
             </div>
             
             <div class="footer-content">
-                <h3>FOLLOW US HERE</h3>
-                <hr>
-                <ul class="social">
-                    <li>
-                        <div class="social_box">
-                            <a href=""><span>Instagram</span><img src="Assets/icons/footer_Union.svg" alt=""></a>
-                        </div>
-                        <hr>
-                    </li>
-                    
-                    <li>
-                        <div class="social_box">
-                            <a href=""><span>Twitter</span><img src="Assets/icons/footer_Union.svg" alt=""></a>
-                        </div>
-                        <hr>
-                    </li>
-                    
-                    <li>
-                        <div class="social_box">
-                            <a href=""><span>Email </span><img src="Assets/icons/footer_Union.svg" alt=""></a>
-                        </div>
-                        <hr>
-                    </li>
-                    
-                </ul>
+                <hr class="bottom-bar-hr">
+                <div class="row justify-content-between">
+                    <div class="col-6">
+                        <p>&copy; 2023 Bexon. All Right Reserved</p>
+                    </div>
+
+                    <div class="cpl-6 ">
+                        <p>Security & Privacy</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <hr class="bottom-bar-hr">
-        <div class="bottom-bar">
-            <p>&copy; 2023 Bexon. All Right Reserved</p><p>Security & Privacy</p>
+
         </div>
     </footer>
 
+    <!-- BootStrap Js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <!-- import javascript -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="javascript/script.js"></script>
 </body>
 </html>
