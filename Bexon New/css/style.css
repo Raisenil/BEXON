@@ -20,7 +20,7 @@ body{
     font-family: 'Satoshi', sans-serif;
 }
 
-.col,.col-12,.col-6,.col-8{
+.col,.col-12,.col-6,.col-7,.col-8{
     padding: 0;
 }
 
@@ -64,7 +64,6 @@ body{
 
 /* home section start */
 .home{
-    /* height: 100vh; */
     height: auto;
     display: flex;
     align-items: center;
@@ -393,11 +392,6 @@ body{
     justify-content: space-between; 
 }
 
-/* .process-row .process-column {
-    flex: 1 1 calc(33.33% - 2rem); 
-    margin-bottom: 2rem;
-} */
-
 .process .content {
     position: relative;
     padding: 1.5rem;
@@ -413,7 +407,6 @@ body{
     font-weight: 400;
     line-height: 36px;
     letter-spacing: -0.6px;
-    /* text-transform: uppercase; */
     max-width: 238px;
 }
 
@@ -481,3 +474,69 @@ body{
 
 /* process Section end */
 
+/* reviews Section Start */
+
+.reviews{
+    min-height: auto;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.reviews h3 {
+    color: #110804;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    width: 385px;
+
+}
+
+.reviews p {
+    color: #A89F94;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cus-review .cl-review p{
+    width: 334px;
+    color: #4B423E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 5px;
+}
+
+.reviews hr{
+    width: 100%;
+    height: 1px;
+    flex-shrink: 0;
+    background: #DFD8CE;
+}
+
+.reviews .map{
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.reviews .cus{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.reviews .map .img-fluid{
+    height: 429px;
+}
+
+.reviews .arrows{
+    padding-top: 20px;
+}
+
+/* reviews Section end */
