@@ -683,11 +683,43 @@ body{
     .footer{
         padding: 0rem 4%;
     }
+
+    .about-content .content-r .img_1st,
+    .about-content .content-r .img_2nd{
+        width: 45%;
+        height: auto;
+    }
+
+    .website_development img,
+    .branding_logo img{
+        width: 95%;
+        height: auto;
+    }
 }
 
 @media (max-width: 1200px){
     html{
         font-size: 55%;
+    }
+
+    .about-content .content-r .img_1st,
+    .about-content .content-r .img_2nd{
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1150px){
+    .process .content{
+        width: 95%;
+    }
+
+    .process .content a{
+        right: 1rem;
+    }
+
+    .reviews .map img{
+        width: 95%;
     }
 }
 
