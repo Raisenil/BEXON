@@ -1,8 +1,8 @@
 @import url('https://fonts.cdnfonts.com/css/satoshi');
 
-.bor{
+/* .bor{
     border: 1px solid red;
-}
+} */
 
 *,
 *::after,
@@ -20,7 +20,7 @@ body{
     font-family: 'Satoshi', sans-serif;
 }
 
-.col,.col-12,.col-6,.col-7,.col-8,.col-5{
+.col,.col-12,.col-6,.col-7,.col-8,.col-5,.col-sm-12,.col-md-12,.col-lg-12,.col-xl-12{
     padding: 0;
 }
 
@@ -279,12 +279,12 @@ body{
     vertical-align: top;
     margin-right: 10px;
     margin-top: 30px;
-    width: 248px;
+    width: 238px;
     height: 406px;
 }
 
 .about-content .content-r .img_2nd{
-    width: 248px;
+    width: 238px;
     height: 406px;
 }
 /* about section end */
@@ -726,6 +726,157 @@ body{
 @media (max-width: 1020px){
     .union{
         display: none;
+    }
+}
+
+@media (max-width: 992px ){
+    .home .home-sci{
+        display: none;
+    }
+
+    .home .media-player iframe{
+        height: 340px;
+    }
+
+    .home .min{
+        font-size: 14px;
+    }
+
+    .home .title{
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    .about .content-r{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .about .content-r h3{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .process .content{
+        width: 290px;
+    }
+
+    .process .content a{
+        top: 2rem;
+        right: 2rem;
+    }
+}
+
+@media (max-width: 991px ){
+    .reviews .arrows{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .reviews .order-cus-1{
+        order: 1!important;
+    }
+
+    .reviews .order-cus-2{
+        order: 2!important;
+    }
+
+    .reviews .order-cus-3{
+        order: 3!important;
+    }
+
+    .reviews .map img{
+        width: 55%;
+    }
+
+    .footer .social li{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 965px ){
+    .process .content{
+        width: 250px;
+        padding-bottom: 2rem;
+    }
+
+    .process .content a{
+        top: 6rem;
+        right: 0rem;
+    }
+}
+
+
+@media (max-width: 960px ){
+    .about .content-r h3{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 880px ){
+    .process .content{
+        width: 240px;
+    }
+
+    .process .content a{
+        top: 6rem;
+        right: 0rem;
+    }
+}
+
+@media (max-width: 852px ){
+    .process .content{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .process .content a{
+        top: 2rem;
+        right: 1rem;
+    }
+
+    .process .content-p{
+        margin: 0;
+    }
+
+    .process .content-p h3,
+    .process .content-p p{
+        max-width: 100%;
+    }
+
+    .process .order-cus-1 {
+        order: 1 !important;
+    }
+
+    .process .order-cus-2 {
+        order: 2 !important;
+    }
+
+    .process .order-cus-3 {
+        order: 3 !important;
+    }
+
+    .cus-review .cl-review p{
+        width: auto;
+    }
+
+    .reviews .cus{
+        width: 100%;
+    }
+}
+
+@media (max-width: 618px ){
+    .contact_us h3 {
+        display: inline-flex;
+        width: 374px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: -0.8px;
     }
 }
 /* responsive end */
