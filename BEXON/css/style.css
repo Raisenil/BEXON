@@ -869,6 +869,16 @@ body{
     }
 }
 
+@media (max-width: 765px ){
+    .about .order-cus-1{
+        order: 1;
+    }
+
+    .about .order-cus-2{
+        order: 2;
+    }
+}
+
 @media (max-width: 618px ){
     .contact_us h3 {
         display: inline-flex;
